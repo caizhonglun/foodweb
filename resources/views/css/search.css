@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+.mainWrap,.rightWrap{
+    margin: 40px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainWrap{
+    width: 735px;
+}
+
+.rightWrap{
+    width: 262px;
+}
+
+.mainWrap h2{
+    display: inline;
+    margin: 10px 0;
+    padding-bottom: 2px;
+    font-size: 20px;
+    background: linear-gradient(transparent 65%, #ffdab9 70%);
+}
+
+.m-pager{
+    margin: 70px 0 0 0;
+    text-align: center;
+}
+
+.m-pager ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.m-pager ul li span,
+.m-pager ul li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    border: 1px solid #ccc;
+}
+
+.m-pager ul li span{
+    background: #f08080;
+    color: #fff;
+    border: none;
+}
+
+.m-pager ul li a:hover{
+    background: #f0d8d8;
+}
+
+.m-shopList{
+    margin-top: 20px;
+}
+
+.m-shopList .shopData{
+    width: 700px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fdf5e6;
+}
+
+.m-shopList .shopData:nth-child(2n){
+    background: #fff5ee;
+}
+
+.shopData .shopHead{
+    padding: 5px 0;
+}
+
+.shopData .shopHead a{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.shopData .shopHead a:hover{
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.shopData .shopDetail{
+    margin: 5px 0;
+}
+
+.shopData .shopDetail .photo,
+.shopData .shopDetail .info{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.shopData .shopDetail .photo{
+    width: 350px;
+    padding: 5px 10px;
+}
+
+.shopData .shopDetail .info{
+    width: 327px;
+    padding: 5px 0;
+}
+
+.shopData .shopDetail .info .shopTitle{
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.shopData .shopDetail .info .shopTitle p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.shopData .shopDetail .info table{
+    margin-top: 10px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.shopData .shopDetail .info table th,
+.shopData .shopDetail .info table td{
+    padding: 5px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+
+.m-shopList .shopData .info table th{
+    width: 60px;
+    background: #696969;
+    color: #ffffff;
+}
+
+.m-shopList .shopData .info table .foodTags li{
+    display: inline-block;
+    padding: 5px;
+    margin: 0 3px;
+    background: #e7616a;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.shopData .shopDetail .info table td{
+    background: #ffffff;
+}
+
+.shopData .shopDetail .info .linkBtn{
+    margin-top: 10px;
+}

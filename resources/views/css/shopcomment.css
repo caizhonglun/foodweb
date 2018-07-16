@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+.f-mainContents{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.f-mainContents h2{
+    display: inline;
+    margin: 10px 0;
+    padding-bottom: 2px;
+    font-size: 33px;
+    font-weight: bold;
+    background: linear-gradient(transparent 65%, #d2b48c 70%);
+}
+
+.linkBtn{
+    margin: 20px 0;
+    text-align: right;
+}
+
+.linkBtn a{
+    background: #fff;
+    border: 1px solid #0073a8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    color: #555;
+}
+
+.linkBtn a:hover{
+    background: #ccefff;
+}
+
+.f-mainContents .shopContents{
+    display: inline-block;
+    width: 1000px;
+    margin: 40px 0;
+}
+
+.f-mainContents .shopContents h3{
+    position: relative;
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom: 2px solid #f3a68c;
+    padding: 0 0 6px 55px;
+}
+
+.f-mainContents .shopContents h3 span::before{
+    content: "";
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon_comment.png) 0 0 no-repeat;
+	background-size: 40px;
+}
+
+.m-pager{
+    margin: 70px 0 0 0;
+    text-align: center;
+}
+
+.m-pager ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.m-pager ul li span,
+.m-pager ul li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    border: 1px solid #ccc;
+}
+
+.m-pager ul li span{
+    background: #f08080;
+    color: #fff;
+    border: none;
+}
+
+.m-pager ul li a:hover{
+    background: #f0d8d8;
+}
+
+.commentFrom,.commentList{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.commentFrom{
+    width: 397px;
+    border-left: 1px solid #ccc;
+    margin-top: 70px;
+}
+
+.commentFrom .form-title{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 15px;
+    background: linear-gradient(transparent 65%, #b0e0e6 70%);
+}
+
+.commentFrom table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 3px;
+    margin-top: 20px;
+}
+
+.commentFrom table th,
+.commentFrom table td{
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.commentFrom table th{
+    background-color: #e6f3ff;
+}
+
+.commentFrom table td input,
+.commentFrom table td textarea{
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.commentFrom table td input.full{
+    width: 100%;
+}
+
+.commentFrom table td button{
+    padding: 10px 20px;
+    background: #cce6ff;
+    border: 1px solid #0084ff;
+    border-radius: 4px;
+}
+
+.commentFrom table td span{
+    line-height: 28px;
+    padding-left: 10px;
+}
+
+.commentList{
+    width: 600px;
+}
+
+.commentList .c-list{
+    background: #fffacd;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.commentList .c-list .mainHead .title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.commentList .c-list .mainHead .name,
+.commentList .c-list .mainHead .date{
+    display: inline-block;
+}
+
+.commentList .c-list .mainHead .name{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.commentList .c-list .mainHead .date{
+    float: right;
+}
+
+.commentList .c-list .mainDetail{
+    margin: 10px 0;
+}
+
+.commentList .c-list .mainDetail .mark{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.commentList .c-list .mainDetail .mark span{
+    font-size: 23px;
+}
+
+.commentList .c-list .mainDetail .body{
+    background: #fff;
+    padding: 10px;
+    line-height: 16px;
+    border-radius: 4px;
+}
+
+.commentList .c-list .replyList .replyTitle{
+    background: #ff7f50;
+    color: #fff;
+    padding: 5px;
+}
+
+.commentList .c-list .replyList .r-list{
+    padding: 10px 0;
+    background: #f5e8dc;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.commentList .c-list .replyList .r-list::before{
+    content: "";
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    background: url(../img/icon_reply.png) 0 0 no-repeat;
+    background-size: 40px;
+}
+
+.commentList .c-list .replyList .r-list .r-detail{
+    padding-left: 65px;
+}
+
+.commentList .c-list .replyList .r-list .r-name,
+.commentList .c-list .replyList .r-list .r-date{
+    display: inline-block;
+}
+
+.commentList .c-list .replyList .r-list .r-name{
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.commentList .c-list .replyList .r-list .r-body{
+    margin-top: 10px;
+}
+
+.commentList .c-list .replyList .r-list .r-date{
+    float: right;
+    margin-right: 10px;
+}
+
+.commentList .c-list .replyList .more{
+    text-align: right;
+    margin: 5px 0;
+    text-decoration: underline;
+    color: #ff7f50;
+    cursor: pointer;
+}
+
+.commentList .c-list .replyForm .replyFormTitle{
+    background: #4169e1;
+    color: #fff;
+    padding: 5px;
+}
+
+.commentList .c-list .replyForm table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+.commentList .c-list .replyForm table th,
+.commentList .c-list .replyForm table td{
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.commentList .c-list .replyForm table th{
+    background-color: #e6ebff;
+    width: 100px;
+}
+
+.commentList .c-list .replyForm table td{
+    background-color: #fff;
+}
+
+.commentList .c-list .replyForm table td input,
+.commentList .c-list .replyForm table td textarea{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+
+
+

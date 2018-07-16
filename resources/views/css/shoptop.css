@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+.f-mainContents{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.f-mainContents h2{
+    display: inline;
+    margin: 10px 0;
+    padding-bottom: 2px;
+    font-size: 33px;
+    font-weight: bold;
+    background: linear-gradient(transparent 65%, #d2b48c 70%);
+}
+
+.f-mainContents .linkBtn{
+    text-align: right;
+}
+
+.f-mainContents .linkBtn .comment{
+    position: relative;
+    background: #fff;
+    border: 1px solid #0073a8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px 5px 50px;
+    border-radius: 4px;
+    margin: 0 10px;
+    color: #555;
+}
+
+.f-mainContents .linkBtn .comment::before{
+    content: "";
+    position: absolute;
+    right: 68px;
+    width: 35px;
+    height: 35px;
+    background: url(../img/icon_note.png) 0 0 no-repeat;
+	background-size: 35px;
+}
+
+.f-mainContents .linkBtn .comment:hover{
+    background: #ccefff;
+}
+
+
+.f-mainContents .shopTitle{
+    margin: 50px 0 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.f-mainContents .introduction{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.f-mainContents .shopContents{
+    display: inline-block;
+    width: 1000px;
+    margin: 40px 0;
+}
+
+.f-mainContents .shopContents h3{
+    position: relative;
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom: 2px solid #f3a68c;
+    padding: 0 0 6px 55px;
+}
+
+.f-mainContents .shopContents h3 span::before{
+    content: "";
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.f-mainContents .shopContents h3 span.photo::before{
+    background: url(../img/icon_camera.png) 0 0 no-repeat;
+	background-size: 40px;
+}
+
+.f-mainContents .shopContents h3 span.access::before{
+    background: url(../img/icon_access.png) 0 0 no-repeat;
+	background-size: 40px;
+}
+
+.f-mainContents .shopContents h3 span.imformation::before{
+    background: url(../img/icon_shop.png) 0 0 no-repeat;
+	background-size: 40px;
+}
+
+.f-mainContents .photoSlider{
+    position: relative;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.f-mainContents .photoSlider img{
+    max-width: 500px;
+    max-height: 333px;
+}
+
+.f-mainContents .photoSlider .pagination{
+    text-align: center;
+}
+
+.f-mainContents .photoSlider .pagination span{
+    margin: 10px 5px;
+    border-radius: 0;
+    width: 38px;
+    height: 12px;
+    display: inline-block;
+    background: #000;
+    opacity: .2;
+    cursor: pointer;
+}
+
+.f-mainContents .photoSlider .pagination span.active{
+    background: #ff6347;
+    opacity: 1;
+}
+
+.f-mainContents .photoSlider .button-next{
+    position: absolute;
+    right: 50%;
+    margin: -2px 0 0 295px;
+    z-index: 10;
+    cursor: pointer;
+    top: 0;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    width: 62px;
+    height: 352px;
+}
+
+.f-mainContents .photoSlider .button-prev{
+    position: absolute;
+    left: 50%;
+    right: auto;
+    margin: -2px 0 0 -359px;
+    z-index: 10;
+    cursor: pointer;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 62px;
+    height: 352px;
+}
+
+.f-mainContents .photoSlider .button-next::after{
+    content: "";
+    position: absolute;
+    top: 55%;
+    right: 22px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    width: 30px;
+    height: 30px;
+    margin: -30px 0 0;
+}
+
+.f-mainContents .photoSlider .button-prev::after{
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 22px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    width: 30px;
+    height: 30px;
+    margin: -30px 0 0;
+}
+
+.f-mainContents .accessmap{
+    width: 700px;
+    margin: 30px auto;
+}
+
+.f-mainContents .shopInfo{
+    width: 700px;
+    margin: 30px auto;
+}
+
+.f-mainContents .shopInfo table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+.f-mainContents .shopInfo table th,
+.f-mainContents .shopInfo table td{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.f-mainContents .shopInfo table th{
+    background-color: #f5dbab;
+    font-weight: bold;
+    width: 200px;
+    border: 1px solid #f5dbab;
+}
+
+.f-mainContents .shopInfo table td{
+    border: 1px solid #ccc;
+}
